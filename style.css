@@ -82,7 +82,7 @@ button {
    /* radial-gradient(circle at 15% 20%, rgba(33, 150, 243, 0.18) 0%, transparent 45%),
     radial-gradient(circle at 85% 75%, rgba(255, 196, 0, 0.12) 0%, transparent 45%),
     linear-gradient(180deg, #050b14 0%, #0a1929 50%, #050b14 100%),*/
-    url('imagebackground.png');
+    url('imagebackground.webp');
   
   background-size: cover, cover, cover, cover;
   background-position: center, center, center, center;
