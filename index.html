@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>zhonghong — Motos Électriques & Tricycles à Lomé</title>
+  <meta name="description"
+    content="VoltMoto, le showroom de référence pour les motos et tricycles électriques à Lomé. Économique, écologique, garanti.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <div class="fixed-bg"></div>
+
+  <!-- NAVIGATION  -->
+  <header class="navbar">
+    <div class="container">
+      <img id="log" src="logo.jpg" alt="">
+        <a href="index.html" class="logo">
+    <!-- NOUVEAU TEXTE -->
+    <span class="logo-slogan">
+        <strong>
+            <span>ZHONG</span> HONG
+        </strong>
+        <small>Importez • Exportez • Achetez</small>
+    </span>
+
+
+      <nav class="nav-links">
+        <a href="index.html">Accueil</a>
+        <a href="catalogue.html">Catalogue</a>
+        <a href="apropos.html">À propos</a>
+        <a href="apropos.html#contact">Contact</a>
+        <a href="https://wa.me/22891242317" target="_blank" class="btn btn-primary btn-sm mobile-only-cta">Discuter sur
+          WhatsApp</a>
+      </nav>
+      <div class="menu-backdrop"></div>
+      <div class="nav-cta">
+        <a href="https://wa.me/22891242317" target="_blank" class="btn btn-outline btn-sm">
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor">
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.38 5.07L2 22l5.07-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2z" />
+          </svg>
+          WhatsApp
+        </a>
+        <!--  
+        <a id="btn-catatalogue" href="catalogue.html" class="btn btn-primary btn-sm">Voir le catalogue</a>
+        -->
+        <button class="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- HERO  -->
+  
+    <section id="cardrecorriger" class="hero">
+      <!-- AJOUT : vidéo de fond de l'accueil uniquement -->
+      <video id="homeBackgroundVideo" class="home-background-video"
+        autoplay muted loop playsinline preload="metadata"
+        aria-hidden="true">
+        <source src="accueil.mp4" type="video/mp4">
+      </video>
+      <div class="home-video-overlay"></div>
+      <button id="videoSoundToggle" class="video-sound-toggle" type="button"
+        aria-label="Activer le son de la vidéo" aria-pressed="false">
+         <span>Activer le son</span>
+      </button>
+      <div class="hero-glow"></div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="eyebrow"><span class="dot"></span> 100% Électrique · Lomé, Togo</div>
+          <h1>L'avenir roule déjà<br><span class="gradient-text">en électrique.</span></h1>
+          <p class="lead">Motos électriques et tricycles pensés pour les rues de Lomé : silencieux, économiques et sans
+            essence. Rechargez chez vous, roulez toute la journée.</p>
+          <div class="hero-actions">
+            <a href="catalogue.html" class="btn btn-primary">
+              Voir le catalogue
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M13 5l7 7-7 7" />
+              </svg>
+            </a>
+            <a href="https://wa.me/22891242317?text=Bonjour%2C%20je%20souhaite%20des%20informations" target="_blank"
+              class="btn btn-outline">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.38 5.07L2 22l5.07-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2z" />
+              </svg>
+              Discuter sur WhatsApp
+            </a>
+          </div>
+          <div class="trust-badges">
+            <div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              </svg>Garantie </div>
+            <div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z" />
+              </svg>0 émission CO₂</div>
+            <div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="9" />
+                <path d="M12 7v5l3 3" />
+              </svg>Jusqu'à 150 km d'autonomie</div>
+            <div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 21v-4a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v4M12 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" />
+              </svg>SAV local à Lomé</div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-hint">
+        <div class="line"></div>Découvrir
+      </div>
+    </section>
+
+    <!--  STATS  -->
+    <section class="section-tight">
+      <div class="container">
+        <div class="stats-bar" data-reveal>
+          <div class="stat-item">
+            <span class="num" data-count="500" data-suffix="+">0</span>
+            <span class="label">Clients satisfaits</span>
+          </div>
+          <div class="stat-item">
+            <span class="num" data-count="20" data-suffix="+">0</span>
+            <span class="label">Modèles disponibles</span>
+          </div>
+          <div class="stat-item">
+            <span class="num" data-count="0" data-suffix="%">0</span>
+            <span class="label">Émission de CO₂</span>
+          </div>
+          <div class="stat-item">
+            <span class="num" data-count="5" data-suffix=" ans">0</span>
+            <span class="label">D'expérience terrain</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- POURQUOI L'ÉLECTRIQUE  -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <h2>Pourquoi passer à l'électrique ?</h2>
+          <p>Fini les stations essence et le bruit du moteur. Découvrez une mobilité pensée pour votre quotidien et
+            votre
+            portefeuille.</p>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card" data-reveal data-scroll-index="1">
+            <div class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M12 1v6M12 17v6M4.22 4.22l4.24 4.24M15.54 15.54l4.24 4.24M1 12h6M17 12h6M4.22 19.78l4.24-4.24M15.54 8.46l4.24-4.24" />
+              </svg></div>
+            <h3>Économique</h3>
+            <p>Jusqu'à 80% d'économie face à l'essence. Une recharge complète coûte moins de 500 FCFA.</p>
+          </div>
+          <div class="feature-card" data-reveal data-scroll-index="2">
+            <div class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z" />
+              </svg></div>
+            <h3>Écologique</h3>
+            <p>Zéro émission, zéro pollution sonore. Roulez proprement dans les rues de Lomé.</p>
+          </div>
+          <div class="feature-card" data-reveal data-scroll-index="3">
+            <div class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M11 5 6 9H2v6h4l5 4V5zM19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07" />
+              </svg></div>
+            <h3>Silencieux</h3>
+            <p>Un moteur électrique quasi-silencieux, pour une conduite discrète et confortable.</p>
+          </div>
+          <div class="feature-card" data-reveal data-scroll-index="4">
+            <div class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              </svg></div>
+            <h3>Robuste</h3>
+            <p>Conçus pour les routes locales, avec garantie constructeur et pièces disponibles à Lomé.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CATALOGUE PREVIEW -->
+    <section class="section" style="background:rgba(10,25,41,0.35);">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <h2>Notre sélection du moment</h2>
+          <p>Un aperçu de notre gamme. Plus de 20 modèles vous attendent dans le catalogue complet.</p>
+        </div>
+        <div class="catalogue-grid">
+          <!-- FEATURED_CARDS_START -->
+          <article class="moto-card" data-type="moto" data-reveal data-scroll-index="1">
+            <div class="img-wrap">
+              <span class="type-tag moto">Moto</span>
+              <img src="moto1.jpg" alt="VoltRide S1 - Moto électrique" loading="lazy">
+            </div>
+            <div class="body">
+              <div>
+                <h3>FO TEMPS</h3>
+                <div class="model-code">supreme edition</div>
+              </div>
+              <div class="price"></div>
+              <div class="specs">
+                <div class="spec-row">
+                  <span class="spec-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z" />
+                    </svg>Autonomie</span>
+                  <span>80 km</span>
+                </div>
+                <div class="battery-track">
+                  <div class="battery-fill" data-fill="47"></div>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="12" cy="12" r="9" />
+                      <path d="M12 7v5l3 3" />
+                    </svg>Vitesse max</span>
+                  <span>48km/h</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="2" y="7" width="18" height="10" rx="2" />
+                      <path d="M22 10v4" />
+                    </svg>Puissance</span>
+                  <span>1000W</span>
+                </div>
+              </div>
+              <div class="cta-row">
+                <a href="https://wa.me/22891242317?text=Bonjour%2C%20je%20suis%20intéressé%20par%20la%20VoltRide%20S1"
+                  target="_blank" class="btn btn-primary btn-sm btn-block">
+                  <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor">
+                    <path
+                      d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.38 5.07L2 22l5.07-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.63 0-3.15-.44-4.46-1.22l-.32-.19-3.07.8.82-2.99-.21-.32A7.93 7.93 0 0 1 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8zm4.29-5.71c-.23-.12-1.37-.68-1.58-.75-.21-.08-.37-.12-.52.12-.15.23-.6.75-.74.9-.14.15-.27.17-.5.06-.23-.12-.98-.36-1.87-1.15-.69-.62-1.16-1.38-1.3-1.61-.14-.23-.01-.36.1-.47.11-.11.23-.27.35-.41.12-.14.15-.23.23-.39.08-.15.04-.29-.02-.41-.06-.12-.52-1.26-.72-1.73-.19-.46-.38-.39-.52-.4-.14-.01-.29-.01-.44-.01s-.41.06-.62.29c-.21.23-.82.8-.82 1.95s.84 2.27.96 2.42c.12.15 1.64 2.51 4 3.52.56.24 1 .38 1.34.49.56.18 1.08.15 1.48.09.45-.07 1.37-.56 1.57-1.1.19-.54.19-1 .13-1.1-.06-.1-.21-.16-.44-.28z" />
+                  </svg>
+                  Commander
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="moto-card" data-type="moto" data-reveal data-scroll-index="5">
+            <div class="img-wrap">
+              <span class="type-tag moto">Moto</span>
+              <img src="moto2.jpg" alt="Thunder E2 Racer - Moto électrique" loading="lazy">
+            </div>
+            <div class="body">
+              <div>
+                <h3>FO KAI RUI</h3>
+                <div class="model-code">Réf</div>
+              </div>
+              <div class="price"></div>
+              <div class="specs">
+                <div class="spec-row">
+                  <span class="spec-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z" />
+                    </svg>Autonomie</span>
+                  <span>100 km</span>
+                </div>
+                <div class="battery-track">
+                  <div class="battery-fill" data-fill="67"></div>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="12" cy="12" r="9" />
+                      <path d="M12 7v5l3 3" />
+                    </svg>Vitesse max</span>
+                  <span>65 km/h</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="2" y="7" width="18" height="10" rx="2" />
+                      <path d="M22 10v4" />
+                    </svg>Puissance</span>
+                  <span>1500W</span>
+                </div>
+              </div>
+              <div class="cta-row">
+                <a href="https://wa.me/22891242317?text=Bonjour%2C%20je%20suis%20intéressé%20par%20la%20Thunder%20E2%20Racer"
+                  target="_blank" class="btn btn-primary btn-sm btn-block">
+                  <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor">
+                    <path
+                      d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.38 5.07L2 22l5.07-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.63 0-3.15-.44-4.46-1.22l-.32-.19-3.07.8.82-2.99-.21-.32A7.93 7.93 0 0 1 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8zm4.29-5.71c-.23-.12-1.37-.68-1.58-.75-.21-.08-.37-.12-.52.12-.15.23-.6.75-.74.9-.14.15-.27.17-.5.06-.23-.12-.98-.36-1.87-1.15-.69-.62-1.16-1.38-1.3-1.61-.14-.23-.01-.36.1-.47.11-.11.23-.27.35-.41.12-.14.15-.23.23-.39.08-.15.04-.29-.02-.41-.06-.12-.52-1.26-.72-1.73-.19-.46-.38-.39-.52-.4-.14-.01-.29-.01-.44-.01s-.41.06-.62.29c-.21.23-.82.8-.82 1.95s.84 2.27.96 2.42c.12.15 1.64 2.51 4 3.52.56.24 1 .38 1.34.49.56.18 1.08.15 1.48.09.45-.07 1.37-.56 1.57-1.1.19-.54.19-1 .13-1.1-.06-.1-.21-.16-.44-.28z" />
+                  </svg>
+                  Commander
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="moto-card" data-type="moto" data-reveal data-scroll-index="10">
+            <div class="img-wrap">
+              <span class="type-tag moto">Moto</span>
+              <img src="moto3.jpg" alt="Falcon EV Sport - Moto électrique" loading="lazy">
+            </div>
+            <div class="body">
+              <div>
+                <h3>ZERO LIMITE 650</h3>
+                <div class="model-code">Boundary</div>
+              </div>
+              <div class="price"></div>
+              <div class="specs">
+                <div class="spec-row">
+                  <span class="spec-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z" />
+                    </svg>Autonomie</span>
+                  <span>100 km</span>
+                </div>
+                <div class="battery-track">
+                  <div class="battery-fill" data-fill="73"></div>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="12" cy="12" r="9" />
+                      <path d="M12 7v5l3 3" />
+                    </svg>Vitesse max</span>
+                  <span>70 km/h</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="2" y="7" width="18" height="10" rx="2" />
+                      <path d="M22 10v4" />
+                    </svg>Puissance</span>
+                  <span>2000W</span>
+                </div>
+              </div>
+              <div class="cta-row">
+                <a href="https://wa.me/22891242317?text=Bonjour%2C%20je%20suis%20intéressé%20par%20la%20Falcon%20EV%20Sport"
+                  target="_blank" class="btn btn-primary btn-sm btn-block">
+                  <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor">
+                    <path
+                      d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.38 5.07L2 22l5.07-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.63 0-3.15-.44-4.46-1.22l-.32-.19-3.07.8.82-2.99-.21-.32A7.93 7.93 0 0 1 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8zm4.29-5.71c-.23-.12-1.37-.68-1.58-.75-.21-.08-.37-.12-.52.12-.15.23-.6.75-.74.9-.14.15-.27.17-.5.06-.23-.12-.98-.36-1.87-1.15-.69-.62-1.16-1.38-1.3-1.61-.14-.23-.01-.36.1-.47.11-.11.23-.27.35-.41.12-.14.15-.23.23-.39.08-.15.04-.29-.02-.41-.06-.12-.52-1.26-.72-1.73-.19-.46-.38-.39-.52-.4-.14-.01-.29-.01-.44-.01s-.41.06-.62.29c-.21.23-.82.8-.82 1.95s.84 2.27.96 2.42c.12.15 1.64 2.51 4 3.52.56.24 1 .38 1.34.49.56.18 1.08.15 1.48.09.45-.07 1.37-.56 1.57-1.1.19-.54.19-1 .13-1.1-.06-.1-.21-.16-.44-.28z" />
+                  </svg>
+                  Commander
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="moto-card" data-type="tricycle" data-reveal data-scroll-index="16">
+            <div class="img-wrap">
+              <span class="type-tag tricycle">Tricycle</span>
+              <img src="moto5.jpg" alt="Kékê Cargo Max - Tricycle électrique" loading="lazy">
+            </div>
+            <div class="body">
+              <div>
+                <h3>E-Star200cc</h3>
+                <div class="model-code">Réf. VM-016</div>
+              </div>
+              <div class="price"></div>
+              <div class="specs">
+                <div class="spec-row">
+                  <span class="spec-label">capacité de charge 1500 kg,</span>
+                  <span></span>
+                </div>
+                <div class="battery-track">
+                  <div class="battery-fill" data-fill="80"> Moteur 200cc</div>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-label">Robuste en montagne</span>
+                  <span></span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-label"> transmission 4x4, Phare led,</span>
+                  <span></span>
+                </div>
+              </div>
+              <div class="cta-row">
+                <a href="https://wa.me/22891242317?text=Bonjour%2C%20je%20suis%20intéressé%20par%20la%20Kékê%20Cargo%20Max"
+                  target="_blank" class="btn btn-primary btn-sm btn-block">
+                  <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor">
+                    <path
+                      d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.38 5.07L2 22l5.07-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.63 0-3.15-.44-4.46-1.22l-.32-.19-3.07.8.82-2.99-.21-.32A7.93 7.93 0 0 1 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8zm4.29-5.71c-.23-.12-1.37-.68-1.58-.75-.21-.08-.37-.12-.52.12-.15.23-.6.75-.74.9-.14.15-.27.17-.5.06-.23-.12-.98-.36-1.87-1.15-.69-.62-1.16-1.38-1.3-1.61-.14-.23-.01-.36.1-.47.11-.11.23-.27.35-.41.12-.14.15-.23.23-.39.08-.15.04-.29-.02-.41-.06-.12-.52-1.26-.72-1.73-.19-.46-.38-.39-.52-.4-.14-.01-.29-.01-.44-.01s-.41.06-.62.29c-.21.23-.82.8-.82 1.95s.84 2.27.96 2.42c.12.15 1.64 2.51 4 3.52.56.24 1 .38 1.34.49.56.18 1.08.15 1.48.09.45-.07 1.37-.56 1.57-1.1.19-.54.19-1 .13-1.1-.06-.1-.21-.16-.44-.28z" />
+                  </svg>
+                  Commander
+                </a>
+              </div>
+            </div>
+          </article>
+          <!-- FEATURED_CARDS_END -->
+        </div>
+        <div style="text-align:center; margin-top:50px;" data-reveal>
+          <a href="catalogue.html" class="btn btn-primary">
+            Voir tout le catalogue ( modèles)
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M13 5l7 7-7 7" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--  COMMENT ÇA MARCHE  -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <h2>Comment ça marche</h2>
+          <p>De la commande à la livraison, un parcours simple et rassurant.</p>
+        </div>
+        <div class="steps">
+          <div class="step" data-reveal data-scroll-index="1">
+            <div class="step-num">01</div>
+            <h3>Choisissez votre modèle</h3>
+            <p>Parcourez le catalogue et contactez-nous directement sur WhatsApp pour un conseil personnalisé.</p>
+          </div>
+          <div class="step" data-reveal data-scroll-index="2">
+            <div class="step-num">02</div>
+            <h3>Essai & paiement</h3>
+            <p>Testez la moto ou le tricycle en showroom et réglez en espèces, Mobile Money ou en plusieurs fois.</p>
+          </div>
+          <div class="step" data-reveal data-scroll-index="3">
+            <div class="step-num">03</div>
+            <h3>Livraison & garantie</h3>
+            <p>Livraison rapide à Lomé et environs, avec une garantie et un SAV local réactif.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  CTA BANNER  -->
+    <section class="section-tight">
+      <div class="container">
+        <div class="cta-banner" data-reveal="scale">
+          <h2>Prêt à passer à l'électrique ?</h2>
+          <p>Nos conseillers sont disponibles sur WhatsApp pour répondre à toutes vos questions, sans engagement.</p>
+          <a href="tel:+22870628888" target="_blank" class="btn btn-primary">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.38 5.07L2 22l5.07-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2z" />
+            </svg>
+            Nous contacter maintenant
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--  FOOTER  -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col footer-brand">
+            <a href="index.html" class="logo">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z" fill="#FFC400" />
+              </svg>
+              ZHONG<span class="accent">HONG</span>
+            </a>
+            <p>Votre showroom de motos électriques et tricycles à Lomé-TOGO. Mobilité propre, économique et garantie.
+            </p>
+            <div class="social-row">
+              <a href="https://web.facebook.com/profile.php?id=61593386631702" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M22 12a10 10 0 1 0-11.5 9.87v-6.98H7.9V12h2.6V9.8c0-2.57 1.53-4 3.87-4 1.12 0 2.3.2 2.3.2v2.53h-1.3c-1.28 0-1.68.8-1.68 1.62V12h2.86l-.46 2.89h-2.4v6.98A10 10 0 0 0 22 12z" />
+                </svg></a>
+              <a href="https://www.tiktok.com/@jianchao.wu2" target="_blank">
+                <i class="fa-brands fa-tiktok"></i>
+              </a>
+              <a href="https://wa.me/22891242317" target="_blank" aria-label="WhatsApp"><svg viewBox="0 0 24 24"
+                  fill="currentColor">
+                  <path
+                    d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.38 5.07L2 22l5.07-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2z" />
+                </svg></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Navigation</h4>
+            <ul>
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="catalogue.html">Catalogue</a></li>
+              <li><a href="apropos.html">À propos</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Nos gammes</h4>
+            <ul>
+              <li><a href="catalogue.html">Motos électriques</a></li>
+              <li><a href="catalogue.html">Tricycles</a></li>
+
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <ul>
+              <li><i class="fa-solid fa-location-dot"></i> AGUIAKOME, RUE ATIKPODJI,
+                LOME‐TOGO</li>
+              <li><i class="fa-solid fa-phone"></i> <a href="tel:+22870628888"> +228 70 62 88 88</a></li>
+              <li><i class="fa-solid fa-phone"></i> <a href="tel:+228 91 242317"> +228 91 24 23 17</a></li>
+              <li><i class="fa-solid fa-envelope"></i> <a
+                  href="mailto:zhonghong829@gmail.com">zhonghong829@gmail.com</a>
+              </li>
+              <li><i class="fa-solid fa-calendar-days"> </i> Lun – Ven : 8h – 19h</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2026 ZHONG HONG. Tous droits réservés.</span>
+          <span>Fait à kara, Togo </span>
+        </div>
+      </div>
+    </footer>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
